@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .question {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+  }
+  
+  .yesButton {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .noButton {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    position: absolute;
+    cursor: pointer;
+    transition: top 0.05s ease, left 0.05s ease; /* Increase speed of movement */
+  }
+  
