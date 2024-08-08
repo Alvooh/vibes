@@ -22,7 +22,7 @@ const Question = () => {
   }, []);
 
   const handleYesClick = () => {
-    alert("You clicked Yes!");
+    alert("I knew it doc you are gaaaaaaayyyyyyy!");
   };
 
   return (
